@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav">
+        <img id="logo" src="./media/pics/Argentine_Football_Association_logo.svg.png" alt="" onclick="location.href='./home.html'">
+        <ul class="navContent">
+            <li class="listElement"> <a class="listLink" href="home.html">Home</a> </li>
+            <li class="listElement"> <a class="listLink" href="contactUs.html">Contact us</a> </li>
+            <li class="listElement"> <a class="listLink" href="players.html">Players</a> </li>
+            <li class="listElement"> <a class="listLink" href="login.html">Login</a> </li>
+            <li class="listElement"> <a class="listLink" href="register.html">Register</a> </li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <p>Register</p>
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname">
+            <label for="gender" class="gender">Gender</label>
+            <input type="radio" value="Male" class="gender">
+            <label for="male" class="gender">Male</label>
+            <input type="radio" name="female" id="female" value="Female" class="gender">
+            <label for="female" class="gender">Female</label>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <label for="uname">User Name</label>
+            <input type="text" name="uname">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <input type="submit" name="register" id="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

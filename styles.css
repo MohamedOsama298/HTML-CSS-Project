@@ -1,0 +1,312 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./media/pics/background.jpg);
+    background-size: cover;
+}
+.nav{
+    height: 7vw;
+    margin: 0;
+    background-color: #173E69aa;
+}
+
+.navContent{
+    margin:  2% 0;
+    padding:0 ;
+    right: 1vw;
+    position:absolute;
+}
+
+.listElement{
+    display: inline;
+}
+
+.listElement:hover{
+    background-color: #173E69;
+}
+.listLink{
+    text-decoration: none;
+    color: #D5B048;
+    padding:1em ;
+}
+
+#logo{
+    width: 5%; 
+    display: inline-block;
+    position:absolute;
+    cursor: pointer;
+}
+
+.partitionHead{
+    background-color: #D5B048aa;
+    margin: 1vh 0 0;
+    padding: 1vh 0;
+    font-size: larger;
+    font-weight:bolder;
+    color: #173E69;
+    text-align: center;
+
+}
+.video{
+    height: 40vh;
+    background-color: #173E69aa;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 0 0 1vh ;
+    white-space: nowrap;
+}
+
+video{
+    height:90%;
+    margin: 1%;
+    display: inline-block;
+
+    
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #173E69aa;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #D5B048;
+    border-radius: 10px;
+  }
+
+
+  .champions{
+    height: 40vh;
+    background-color: #173E69aa;
+    margin: 0 0 1vh;
+    white-space: nowrap;
+  }
+
+  .kit{
+    height: 36vh;
+    display: inline-block;
+    margin: 2vh 3vw ;
+    text-align: center;
+    width: 25%;
+    color: #D5B048;
+  }
+
+  .kit:hover{
+    cursor: pointer;
+    background-color: #173E6977;
+  }
+
+  .kit > img{
+    height: 80%;
+  }
+  
+  .kit>p{
+    margin: 0;
+  }
+
+
+
+  .footer{
+    height: 6vh;
+    background-color: #D5B048aa;
+    /* margin: auto; */
+  }
+
+  .footer>img{
+    height: 50%;
+    margin: 1vw;
+    float: right;
+  }
+
+  .footer>img:hover{
+    cursor: pointer;
+  }
+
+  .footer>p{
+    float: left;
+    margin: 1vw;
+    
+    color: #173E69;
+  }
+
+
+  .form{
+    margin: 20vh 25vw;
+    background-color: #173E69aa;
+    width: 50vw;
+    text-align: center;
+    /* padding: 1vw; */
+    color: #D5B048;
+
+  }
+
+  .form>p{
+    font-size: 2vw;
+  }
+
+  form{
+    /* margin: auto; */
+    padding: 1vw;
+    text-align: center;
+    width: 40vw;
+    margin: 0 4vw;
+    font-size: 1.5vw;
+    
+    color: #D5B048;
+  }
+
+  form>input{
+    display: block;
+    width: 30vw;
+    margin: 1vh 5vw;
+    /* background-color: #173E69;  */
+    
+    /* color: #D5B048; */
+  }
+
+  form>textarea{
+    display: block;
+    width: 30vw;
+    margin: 1vh 5vw;
+    resize: none;
+  }
+
+  #submit{
+    width: 16vw;
+    margin: 1vh 12vw;
+    
+    color: #D5B048;
+    background-color: #173E69;
+    border: none;
+  }
+
+  #submit:hover{
+    border: inset #D5B048;
+  }
+  #submit:active{
+    border: inset #D5B048;
+  }
+  form>label{
+    width: 32vw;
+    margin: 1vh 4vw;
+    display: block;
+  }
+
+  label.gender{
+    font-size: 1.5vw;
+    display: inline-block;
+    margin: 1vh 2vw 1vh 0;
+    width: 4vw;
+  }
+
+  input.gender{
+    display: inline-block;
+    margin: 1vh 0;
+    width: 3vw;
+  }
+
+  .worldCup{
+    width: 40 vw;
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 1vh 5vw;
+    margin: 10vh 20vw;
+    text-align: center;
+    background-color: #173E69aa;
+    color: #D5B048;
+    border-radius: 1vw; 
+    border: 0.1vw solid #D5B048;
+    font-size: 1.5vw;
+  }
+
+  .worldCup>img{
+    width: 80%;
+    /* border: ; */
+    border-radius: 1vw;
+    border: 0.5vw solid #D5B048;
+  }
+
+
+  .players-table{
+    max-width: 50vw;
+    max-height: 80vh;
+    /* width: fit-content; */
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin: 20vh 25vw;
+        background-color: #D5B048aa;
+
+
+  }
+
+  table,th,td{
+    border:1px solid #173E69;
+    border-collapse: collapse;
+    color: #173E69;
+  }
+  td{
+    background-color: #D5B048aa;
+  }
+  td,th{
+    text-align: center;
+    padding: 0.4vw;
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+    body {
+      /* background-color: lightblue; */
+    }
+
+      .nav{
+        height: fit-content;
+      }
+    .navContent{
+      position: static;
+      margin: auto;
+      width: 50%;
+      text-align: center;
+    }
+    .listElement{
+      display: block;
+    }
+
+    #logo{
+      width: 10%;
+      margin: auto;
+      display: block;
+      position: static;
+    }
+
+    .partitionHead{
+      font-size: medium;
+  }
+
+  
+  .video{
+    height: 30vh;
+  }
+
+  .champions{
+    overflow-x: scroll;
+    height: 30vh;
+  }
+  .kit{
+    margin: 2vh 25vw;
+  }
+  .kit > img{
+    height: 40%;
+  }
+  }
